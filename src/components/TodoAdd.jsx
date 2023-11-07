@@ -1,7 +1,9 @@
 import React from 'react'
 
 export const TodoAdd = () => {
-  return <form>
+  return ( 
+  
+  <form>
 
     <input 
       type="text"
@@ -14,4 +16,6 @@ export const TodoAdd = () => {
     <button className='btn-add' type='submit'>Agregar</button>
 
   </form>
+  
+  )
 }
