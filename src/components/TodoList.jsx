@@ -1,18 +1,8 @@
 import React from 'react'
+import { TodoItem } from './TodoItem'
 
 export const TodoList = () => {
   return <ul>
-    <li>
-        <p>Aprender React</p>
-    </li>
-    <li>
-        <p>Aprender Redux</p>
-    </li>
-    <li>
-        <p>Aprender Nodejs</p>
-    </li>
-    <li>
-        <p>Aprender Express</p>
-    </li>
+    <TodoItem />
   </ul>
 }

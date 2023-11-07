@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaTrash } from 'react-icons/fa'
 
 export const TodoItem = () => {
   return (
@@ -6,7 +7,7 @@ export const TodoItem = () => {
         <span>
             <label htmlFor="" className='container-done'></label>
         </span>
-        <button></button> {/* Continuar en 12:28 */}
+        <button className='btn-delete'><FaTrash /></button> 
     </li>
   )
 }
