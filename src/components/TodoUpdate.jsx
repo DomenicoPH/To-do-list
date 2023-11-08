@@ -10,7 +10,7 @@ export const TodoUpdate = () => {
             type="text"
             className='input-update'
             name='description'
-            value='Aprender Php'
+            value={todo.description}
             placeholder='¿Qué hay que hacer?'
           />
       
