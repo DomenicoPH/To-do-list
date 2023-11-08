@@ -16,7 +16,7 @@ export const TodoAdd = ({handleNewTodo}) => {
       done: false
     }
     handleNewTodo(newTodo);
-    onResetForm;
+    onResetForm();
   }
 
   return ( 
@@ -28,6 +28,7 @@ export const TodoAdd = ({handleNewTodo}) => {
       className='input-add'
       name='description'
       value={description}
+      onChange={onInputChange}
       placeholder='¿Qué hay que hacer?'
     />
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaEdit } from 'react-icons/fa'
 
-export const TodoUpdate = () => {
+export const TodoUpdate = ({todo, handleUpdateTodo}) => {
     return ( 
   
         <form>

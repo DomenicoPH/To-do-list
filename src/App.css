@@ -10,10 +10,11 @@
 	--azul-hover: #48cae4;
 	--rojo-hover: #e5383b;
 	--verde: #09a129;
+	--pop: 'Poppins'
 }
 
 body {
-	font-family: Poppins;
+	font-family: var(--pop);
 	max-width: 1200px;
 	margin: 40px auto;
 	display: flex;
@@ -177,3 +178,8 @@ form {
 .btn-add:hover {
 	background-color: var(--azul-hover);
 }
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  }
